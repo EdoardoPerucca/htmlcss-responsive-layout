@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container-centered {
+    max-width: 308px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+header {
+    background-color: #0084fd;
+}
+
+* p {
+    line-height: 25px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    min-height: 75px;
+    margin-bottom: 50px;
+}
+
+header nav .nav-left {
+    display: flex;
+    min-width: 90px;
+    min-height: 50px;
+    align-items: center;
+}
+
+header nav .nav-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    min-width: 90px;
+    min-height: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+main .list-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main .list-demo .card {
+    min-width: 308px;
+    min-height: 360px;
+    background-color: #b5ddff;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;   
+    text-align: center;
+    line-height: 30px;
+}
+
+main .list-demo .card .p-card {
+    padding-bottom: 40px
+}
+
+main .card img {
+    width: 100%;
+}
+
+main .list-demo .card .card-1 {
+    padding-top: 40px;
+    text-align: start;
+}
+
+main .list-demo .card h2 {
+    padding-bottom: 40px;
+    color:#0084fd;
+    font-size: 22px;
+}
+
+main .list-demo .card .card-1 button {
+    width: 200px;
+    height: 40px;
+    background-color: #0084fd;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main .list-demo .card .card-1 img {
+    display: flex;
+}
+
+main .list-demo .card .icons {
+    font-size: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #0084fd;
+}
+
+
+
+
+
+
+main .strategic {
+    width: 100%;
+    background-color: #9792e4;
+    margin-top: 50px;
+    color: white;
+    line-height: 25px;
+    padding-bottom: 60px;
+    
+}
+
+main .strategic img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+main .strategic .planning {
+    padding-bottom: 35px;
+}
+
+main .strategic .planning .title-planning {
+    color: white;
+    padding-bottom: 60px;
+    font-size: 30px;
+}
+
+main .strategic .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+main .strategic .app .app-title {
+    padding-bottom: 30px;
+}
+
+main .strategic .arrow {
+    display: flex;
+    background-color: #9792e4;
+    width: 50px;
+    height: 50px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+
+main .testimonials .title-testimonials {
+    text-align: center;
+}
+
+main .testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px;
+    
+}
+
+main .testimonials .h2-testimonials {
+    color: #9792e4;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 30px;
+}
+
+main .testimonials .p-testimonials {
+    padding-bottom: 50px;
+}
+
+main .testimonials .card-testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+main .testimonials .card-testimonials .img-testimonials {
+    min-width: 250px;
+    min-height: 250px; 
+    border-radius: 50%;
+    background-color: blue;
+    background-image: cover;
+    
+}
+
+main .testimonials .card-testimonials .img-testimonials img {
+   
+  
+}
