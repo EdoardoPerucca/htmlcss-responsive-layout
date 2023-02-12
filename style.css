@@ -14,6 +14,12 @@ body {
     padding-right: 40px; 
 }
 
+.container-centered-footer {
+    min-width: 200px;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+
 header {
     background-color: #0084fd;
 }
@@ -46,8 +52,12 @@ header {
     color: black;
 }
 
-* h2 {
+* .h2-purple {
     color: #9792e4;
+}
+
+* .h2-orange {
+    color: #fdc15f;
 }
 
 
@@ -201,6 +211,7 @@ main .strategic .container-strategic .card-strategic-app {
     background-color: white;
     border-radius: 25px;
     padding: 25px 25px;
+    text-align: center;
 }
 
 main .strategic .container-strategic .card-strategic-app .arrow-app-section {
@@ -246,8 +257,9 @@ main .testimonials .card-testimonials {
 }
 
 main .testimonials .card-testimonials img {
-    width: 90%;
-    border-radius: 50px;
+   width: 80%;
+   border-radius: 50px;
+    
 }
 
 main .testimonials .card-testimonials .p-testimonials {
@@ -330,14 +342,34 @@ main .about-us {
 main .about-us .title-about-us {
     color: #9792e4;
     font-size: 40px;
-    padding-bottom: 55px;
 }
 
-main .about-us .bottom-about-us .img-bottom-about-us {
+main .about-us .top-about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+main .about-us .bottom-about-us .img-about-us {
+    position: relative;
+    width: 60%;
+}
+
+main .about-us .bottom-about-us .img-inner-about-us {
     width: 50%;
     border-radius: 50%;
     margin-top: 60px;
     margin-bottom: 25px;
+    width: 100%;
+}
+
+
+main .about-us .bottom-about-us .img-about-us .fa-quote-left {
+    position: absolute;
+    color: #9792e4;
+    font-size: 4.5em;
+    right: 0;
+    top: 50px;
 }
 
 main .about-us .bottom-about-us .p-bottom-about-us {
@@ -358,13 +390,69 @@ main .about-us .bottom-about-us .btn-bottom-about-us {
 }
 
 
-footer .footer-top {
-    background-color: #9792e4;
+
+
+
+
+footer .free {
+    color: white;
 }
 
-footer .footer-bottom {
-    background-color: black;
+footer .free .footer-top {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #9792e4;
+    text-align: center;
+}
+
+footer .free .footer-top .h4-footer-top {
+    color: #c0bdee;
+}
+
+footer .free .footer-top .h3-footer-top {
+    padding-top: 35px;
+    font-size: 1.5em;
+}
+
+footer .free .footer-top .h2-orange {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 4em;
+}
+
+footer .free .footer-top .btn-footer {
+    padding: 25px;
+    width: 80%;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2em;
+    color: #9792e4;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+footer .free .footer-top a {
     color: white;
+}
+
+
+
+footer .free .footer-bottom {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer .free .footer-bottom-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    text-align: center;
+    color: white;
+}
+
+footer .free .footer-bottom-inner a {
+    color: #8783c8;
 }
 
 
@@ -407,6 +495,13 @@ footer .footer-bottom {
 
     main .container-card .card {
         width: calc(100% / 3 - (15px / 3 * 2));
+    }
+
+
+
+
+    main .testimonials .card-testimonials img {
+        max-width: 200px;
     }
 
 
@@ -522,7 +617,7 @@ footer .footer-bottom {
     }
 
     main .strategic .container-strategic .card-strategic-app {
-        margin-top: 200px;
+        margin-top: 100px;
         width: 90%;
         height: 80%;
     }
@@ -535,9 +630,10 @@ footer .footer-bottom {
 
 
 
-
-   
-
-    
+    .container-centered-footer {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 }
