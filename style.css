@@ -262,6 +262,7 @@ main .testimonials .card-testimonials img {
     
 }
 
+
 main .testimonials .card-testimonials .p-testimonials {
     padding-top: 20px;
     padding-bottom: 30px;
@@ -367,7 +368,7 @@ main .about-us .bottom-about-us .img-inner-about-us {
 main .about-us .bottom-about-us .img-about-us .fa-quote-left {
     position: absolute;
     color: #9792e4;
-    font-size: 4.5em;
+    font-size: 3em;
     right: 0;
     top: 50px;
 }
@@ -421,7 +422,7 @@ footer .free .footer-top .h2-orange {
 }
 
 footer .free .footer-top .btn-footer {
-    padding: 25px;
+    padding: 20px;
     width: 80%;
     border-radius: 50px;
     border: none;
